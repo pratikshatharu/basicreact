@@ -2,7 +2,7 @@
   "name": "practice",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pratikshatharu.giyhub.io/react.git",
+  "homepage": "https://pratikshatharu.github.io/react_app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
@@ -17,8 +17,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  
   },
   "eslintConfig": {
     "extends": [
