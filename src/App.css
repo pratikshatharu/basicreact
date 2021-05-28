@@ -1,38 +1,150 @@
-.App {
+h2 {
   text-align: center;
+  color: rgb(41, 8, 187);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
+  font-style: oblique;
+  margin-top: 90px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  text-align: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2.form-titles {
+  padding-bottom: 20px;
+  margin-top: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-group input {
+  height: 25px;
+  width: 300px;
+}
+
+.zmdi {
+  height: 50px;
+  width: 35px;
+}
+
+.form-submit {
+  background-color: blue;
+  text-align: center;
+  text-shadow: darkslateblue;
+  height: 20px;
+  width: 20px;
+}
+
+#signup {
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+}
+
+.signup {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  margin-top: 5%;
+  border-radius: 12px;
+  margin-left: 30%;
+
+  width: 35.25%;
+  box-shadow: 0px 20px 100px -7px rgba(0, 0, 1);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-shadow: darkslategray;
+  color: black;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input.login {
+  margin-left: 20%;
+}
+
+.login {
+  margin: 10px;
+  margin-left: 50%;
+}
+
+.reset-psw {
+  font-size: small;
+}
+
+.new-account {
+  width: 250px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background: green;
+  text-emphasis-color: bisque;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: bisque;
+}
+
+.heading_style {
+
+  text-align: center;
+  font-family: "Railway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: aquamarine;
+  background-color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  padding: 50;
+}
+
+.button {
+  display: center;
+  margin-left: 30%;
+  background-color: yellow;
+  height: 30px;
+  width: 90px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card__title {
+  margin-left: 30%;
+}
+
+.card__category {
+  margin-left: 20%;
+}
+
+
+.cards {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  margin-top: 10%;
+  border-radius: 12px;
+  margin-left: 8%;
+
+  width: 22.25%;
+  box-shadow: 0px 15px 10px -7px rgb(0, 0, 1);
+  float: left;
+
+}
+
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgb(0, 0, 1, 0.1);
+  transform: scale(1.05, 1.05);
+}
+
+.card__img {
+  width: 100%;
 }
