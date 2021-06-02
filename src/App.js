@@ -9,10 +9,10 @@ function App() {
     <>
   
 
-  {/*<Registration1 />
+  {/*<Registration1  />
   <Login/>*/}
 <Card/>
-  </>
+  </> 
   );
 }
 
