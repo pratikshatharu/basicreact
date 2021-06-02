@@ -8,7 +8,7 @@ const Signup = () => {
                 <div className="container-5">
                     <div className="signup-content">
                         <div className="signup-form">
-                            {/*<img src={images} alt='photo' className="images" />*/}
+                            {/*<img src={images} alt='photo' className="images" /> for images*/}
                             <h2 className="form-titles">Register here.. </h2>
                             <form className="register-form" id="register-form">
                                 <div className="form-group">
@@ -42,7 +42,7 @@ const Signup = () => {
 
                                 </div>
                                 <div>
-                                    <h5>Already have an account? <a href="Login.jsx">Login</a></h5>
+                                    <h5>Already have an Account? <a href="Login.jsx">Login</a></h5>
                                 </div>
                             </form>
                             <div>
