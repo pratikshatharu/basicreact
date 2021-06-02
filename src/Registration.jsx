@@ -8,7 +8,7 @@ const Signup = () => {
                 <div className="container-5">
                     <div className="signup-content">
                         <div className="signup-form">
-                            {/*<img src={images} alt='photo' className="images" />*/}
+                            {/*<img src={images} alt='photo' className="images" /> for image*/}
                             <h2 className="form-titles">Register here </h2>
                             <form className="register-form" id="register-form">
                                 <div className="form-group">

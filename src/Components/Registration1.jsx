@@ -9,7 +9,7 @@ const Signup = () => {
                     <div className="signup-content">
                         <div className="signup-form">
                             {/*<img src={images} alt='photo' className="images" />*/}
-                            <h2 className="form-titles">Register here </h2>
+                            <h2 className="form-titles">Register here.. </h2>
                             <form className="register-form" id="register-form">
                                 <div className="form-group">
                                     <label htmlFor="name"><i className="zmdi zmdi-account material-icons-name"></i></label>
