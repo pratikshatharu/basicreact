@@ -9,8 +9,8 @@ function App() {
     <>
   
 
-  <Registration1 />
-  <Login/>
+  {/*<Registration1 />
+  <Login/>*/}
 <Card/>
   </>
   );

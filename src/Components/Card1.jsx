@@ -5,6 +5,7 @@ import Card from './Card2';
 
 ReactDOM.render(
     <>
+        <h1>LIST OF FAV CHOCOLATES</h1>
         <Card imgsrc="https://s3.images-iherb.com/lov/lov00171/w/0.jpg"
             title="CHOCOLATE FLAVOURS"
             sname="dark chocolate"
